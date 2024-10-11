@@ -377,18 +377,21 @@
     "gpt_4_plugins": "GPT-4 插件",
     "gpt_4_mobile": "GPT-4 Mobile",
     "gpt_4_code_interpreter": "GPT-4 代码执行器",
-    "gpt_4_dalle": "GPT-4 DALL·E 3"
+    "gpt_4_dalle": "GPT-4 DALL·E 3",
+    "o1_mini": "o1_mini"
   },
   "modelDescriptions": {
     "openai_api": {
       "gpt_3_5": "最快的模型，非常适合大多数日常任务。",
-      "gpt_4": "最有能力的模型，非常适合需要创造力和高级推理的任务。相对较慢。"
+      "gpt_4": "最有能力的模型，非常适合需要创造力和高级推理的任务。相对较慢。",
+      "gpt_4o": "针对复杂工作的最佳模型",
+      "o1_mini": "较快的推理"
     },
     "openai_web": {
       "gpt_3_5": "最快的模型，非常适合大多数日常任务。",
       "gpt_3_5_mobile": "GPT-3.5的移动版。不推荐使用。",
       "gpt_4": "浏览、高级数据分析和DALL·E现已集成于GPT-4中。所有用户将共享每 3 小时 50 条 GPT-4 消息的使用限制（包括所有 GPT-4）模型。",
-      "gpt_4o": "Newest and most advanced model",
+      "gpt_4o": "针对复杂工作的最佳模型",
       "gpt_4_browsing": "实验性模型，知道何时以及如何浏览网页来解决问题。",
       "gpt_4_plugins": "实验性模型，能够利用多种插件。",
       "gpt_4_mobile": "GPT-4的移动版。不推荐使用。",

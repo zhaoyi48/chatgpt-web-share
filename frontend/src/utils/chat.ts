@@ -30,6 +30,7 @@ export const chatModelColorMap: Record<string, string> = {
   gpt_4_plugins: 'purple',
   gpt_4_code_interpreter: 'purple',
   gpt_4_dalle: 'purple',
+  o1_mini: 'darkgreen',
 };
 
 export const getChatModelColor = (model_name: OpenaiWebChatModels | OpenaiApiChatModels | string | null) => {
@@ -114,7 +115,7 @@ export function getMessageListFromHistory(
 ): BaseChatMessage[] {
   const result: BaseChatMessage[] = [];
   if (!convHistory) return result;
-  let x = lastNode || convHistory.current_node || undefined as any;
+  let x = lastNode || convHistory.current_node || (undefined as any);
   while (x != undefined) {
     const message = convHistory.mapping[x];
     if (message && message.content != undefined) {
@@ -316,5 +317,5 @@ export function replaceMathDelimiters(input: string) {
 }
 
 export function dompurifyRenderedHtml(html: string) {
-  return DOMPurify.sanitize(html, {ALLOW_UNKNOWN_PROTOCOLS: true});
+  return DOMPurify.sanitize(html, { ALLOW_UNKNOWN_PROTOCOLS: true });
 }
