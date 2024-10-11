@@ -126,7 +126,7 @@ class OpenaiApiSetting(BaseModel):
         "gpt_3_5": "gpt-3.5-turbo",
         "gpt_4": "gpt-4",
         "gpt_4o": "gpt-4o",
-        "o1_mini": "o1_mini",
+        "o1_mini": "o1-mini",
     }
 
 

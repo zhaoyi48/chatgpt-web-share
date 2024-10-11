@@ -686,11 +686,15 @@ export interface components {
        *   "read_timeout": 20,
        *   "enabled_models": [
        *     "gpt_3_5",
-       *     "gpt_4"
+       *     "gpt_4",
+       *     "gpt_4o",
+       *     "o1-mini"
        *   ],
        *   "model_code_mapping": {
        *     "gpt_3_5": "gpt-3.5-turbo",
-       *     "gpt_4": "gpt-4"
+       *     "gpt_4": "gpt-4",
+       *     "gpt_4o": "gpt-4o",
+       *     "o1-mini": "o1-mini"
        *   }
        * }
        */
